@@ -1,9 +1,9 @@
 <?php
 
-$jam = "25:00";
+$jam = "17:25";
 if ($jam >= "00:00" && $jam < "04:00"){
     echo"$jam = Dini hari";
-}else if ($jam >= "04:00"&& $jam < "10;00"){
+}else if ($jam >= "04:00" && $jam < "10;00"){
     echo"$jam = Pagi";
 }else if ($jam >= "10:00" && $jam < "15:00"){
     echo"$jam = Siang";
