@@ -1,7 +1,7 @@
 <?php
 
 $nilai = 90;
- 
+
 if ($nilai > 100) {
     echo "Nilai anda $nilai = Nilai wajib di antara 0 - 100";
 }elseif ($nilai >= 90) {
